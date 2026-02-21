@@ -2,7 +2,7 @@
 
 Custom WooCommerce plugin for automated PDF invoice generation.
 
-> 🚧 Status: Beta (v0.1.0) – Active Development
+> 🚧 Status: **Beta (v0.1.0)** – Active Development
 
 ---
 
@@ -52,10 +52,17 @@ This repository represents the active development version of the plugin.
 
 The plugin follows a modular structure:
 
+woocommerce-auto-invoice-system/
+│
+├── includes/          # Core logic
+├── templates/         # Invoice templates
+├── vendor/            # DOMPDF dependency
+├── hnh-invoices.php   # Main plugin bootstrap
+└── README.md
+
 ---
 
-
-### Technical Stack
+## 🧰 Technical Stack
 
 - PHP 8+
 - WordPress Plugin API
@@ -75,7 +82,30 @@ The plugin follows a modular structure:
 
 ## 🚀 Installation (Development)
 
-1. Clone repository:
+Clone repository:
 
-```bash
 git clone https://github.com/NikolayPG89/woocommerce-auto-invoice-system.git
+
+Copy folder into:
+
+wp-content/plugins/
+
+Activate plugin in WordPress Admin.
+
+---
+
+## 📈 Versioning
+
+This project follows semantic versioning:
+
+- 0.x.x → Development / Beta
+- 1.0.0 → First stable production release
+
+Current version: v0.1.0
+
+---
+
+## 👨‍💻 Author
+
+Nikolay PG  
+Custom WooCommerce Development Project
