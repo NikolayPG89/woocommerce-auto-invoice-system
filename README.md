@@ -1,7 +1,81 @@
-# woocommerce-auto-invoice-system
-Custom WooCommerce plugin for automatic invoice generation
+# HNH Invoices System
+
+Custom WooCommerce plugin for automated PDF invoice generation.
+
+> 🚧 Status: Beta (v0.1.0) – Active Development
 
 ---
 
-## Status
-🚧 Currently in active development
+## 📌 Project Overview
+
+HNH Invoices System is a custom-built WooCommerce plugin designed to automate invoice generation for online stores.
+
+The project was created to eliminate manual invoice handling and improve operational efficiency in e-commerce environments.
+
+This repository represents the active development version of the plugin.
+
+---
+
+## 🎯 Purpose
+
+- Automate invoice creation after WooCommerce order events
+- Generate structured PDF invoices using DOMPDF
+- Provide a scalable foundation for future invoice management features
+- Build a production-ready invoice automation system
+
+---
+
+## ✨ Implemented Features (v0.1.0)
+
+- Invoice generation trigger (order-based logic)
+- PDF rendering via DOMPDF
+- Template-based invoice structure
+- Modular folder architecture
+- Clean separation of business logic and presentation layer
+
+---
+
+## 🛣 Roadmap (Planned Features)
+
+- Admin settings panel
+- Custom invoice numbering system
+- Automatic email attachment
+- Invoice storage and history inside WP Admin
+- VAT & tax logic expansion
+- Branding customization (logo, company details)
+- Multi-language support
+- Customer account invoice access
+
+---
+
+## 🏗 Architecture Overview
+
+The plugin follows a modular structure:
+
+---
+
+
+### Technical Stack
+
+- PHP 8+
+- WordPress Plugin API
+- WooCommerce Order Hooks
+- DOMPDF (PDF rendering)
+- Modular file structure
+
+---
+
+## ⚙️ Requirements
+
+- WordPress 6.x+
+- WooCommerce 7.x+
+- PHP 8.0+
+
+---
+
+## 🚀 Installation (Development)
+
+1. Clone repository:
+
+```bash
+git clone https://github.com/NikolayPG89/woocommerce-auto-invoice-system.git
