@@ -1,5 +1,5 @@
 # HNH Invoices System
-
+![Version](https://img.shields.io/badge/version-0.1.0-blue)
 Custom WooCommerce plugin for automated PDF invoice generation.
 
 > 🚧 Status: **Beta (v0.1.0)** – Active Development
